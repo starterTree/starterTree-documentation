@@ -1,7 +1,7 @@
-site_name: "SOCLE-DOCUMENTATION"
-repo_url: https://github.com/thomas10-10/SOCLE
-repo_name: thomas10-10/socle
-edit_uri: https://github.com/thomas10-10/socle-documentation/blob/master/docs
+site_name: "starterTree Docs"
+repo_url: https://github.com/orgs/starterTree/repositories
+repo_name: starterTree
+edit_uri: https://github.com/starterTree/starterTree-documentation/blob/master/docs
 pages:
 - Overview: index.md
 - "Get Started": start.md
