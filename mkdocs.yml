@@ -21,6 +21,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - admonition
+  - pymdownx.details
 theme:
   icon: https://i.imgur.com/nHDBrIC.png
   favicon: https://i.imgur.com/nHDBrIC.png
