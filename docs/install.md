@@ -1,4 +1,4 @@
-### Prerequisites
+### :octicons-check-24: Prerequisites
 
 * Linux system
 
@@ -7,7 +7,7 @@
     to enable icons, you must install nerd fonts [nerdFonts](https://www.nerdfonts.com/font-downloads)
 
 
-### Installation
+### :material-file-download: Installation
 
 Download and install
 
@@ -26,7 +26,7 @@ curl -L https://raw.githubusercontent.com/starterTree/starterTree/master/install
 <!--  curl -L ’https://github.com/thomas10-10/az/releases/download/v0.3/az.tar.gz' | tar -xz - -C az --strip-components=1 -->
 
 
-### Update 
+### :material-update: Update 
 
 since version 0.7 you can update with:
 ```
