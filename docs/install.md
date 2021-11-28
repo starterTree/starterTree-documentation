@@ -10,19 +10,26 @@ Download and install
 curl -L https://raw.githubusercontent.com/starterTree/starterTree/master/install.sh | bash
 ```
 
+???+ note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+
 ??? info "Custom install"
   
-  ```bash  
-  cd /opt 
-  sudo curl -L "https://github.com/starterTree/starterTree/releases/download/$(basename $(curl -fsSLI -o /dev/null -w %{url_effective} https://github.com/starterTree/starterTree/releases/latest))/starterTree.tar.gz" | sudo tar -xz 
-  sudo ln -s /opt/starterTree/starterTree /usr/local/bin/st
-  ```
+    ```bash  
+    cd /opt 
+    sudo curl -L "https://github.com/starterTree/starterTree/releases/download/$(basename $(curl -fsSLI -o /dev/null -w %{url_effective} https://github.com/starterTree/starterTree/releases/latest))/starterTree.tar.gz" | sudo tar -xz 
+    sudo ln -s /opt/starterTree/starterTree /usr/local/bin/st
+    ```
 
 <!--  curl -L ’https://github.com/thomas10-10/az/releases/download/v0.3/az.tar.gz' | tar -xz - -C az --strip-components=1 -->
 
 !!! warning
 
-  to enable icons, you must install nerd fonts [nerdFonts](https://www.nerdfonts.com/font-downloads)
+    to enable icons, you must install nerd fonts [nerdFonts](https://www.nerdfonts.com/font-downloads)
 
 #### UPDATE 
 
