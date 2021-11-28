@@ -20,6 +20,8 @@ markdown_extensions:
       alternate_style: true 
   - admonition
 theme:
+  icon: https://i.imgur.com/nHDBrIC.png
+  favicon: https://i.imgur.com/nHDBrIC.png
   name: material
   features:
     - toc.integrate
