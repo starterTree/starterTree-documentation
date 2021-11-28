@@ -11,7 +11,7 @@ curl -L https://raw.githubusercontent.com/starterTree/starterTree/master/install
 ```
 
 ??? info "Custom install"
-
+  
   ```bash  
   cd /opt 
   sudo curl -L "https://github.com/starterTree/starterTree/releases/download/$(basename $(curl -fsSLI -o /dev/null -w %{url_effective} https://github.com/starterTree/starterTree/releases/latest))/starterTree.tar.gz" | sudo tar -xz 
