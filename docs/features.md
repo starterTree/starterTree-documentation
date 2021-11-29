@@ -17,7 +17,7 @@ myGroup: # (4)
       type: key
       
       `:fontawesome-solid-exclamation: obligatory`
-3.    `user@host`
+2.    `user@host`
        
       type: string
       
