@@ -13,15 +13,14 @@
 
 Download and install
 
-=== ":octicons-terminal-24: Linux Terminal"
        
-    ``` bash
+    ``` bash title="Linux Terminal"
     curl -L https://raw.githubusercontent.com/starterTree/starterTree/master/install.sh | bash
     ```
 
 ??? info "Custom install"
   
-    ``` bash title=:octicons-terminal-24:"Terminal"  
+    ``` bash title="Linux Terminal" 
     cd /opt 
     sudo curl -L "https://github.com/starterTree/starterTree/releases/download/$(basename $(curl -fsSLI -o /dev/null -w %{url_effective} https://github.com/starterTree/starterTree/releases/latest))/starterTree.tar.gz" | sudo tar -xz 
     sudo ln -s /opt/starterTree/starterTree /usr/local/bin/st
