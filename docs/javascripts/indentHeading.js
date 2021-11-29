@@ -1,3 +1,5 @@
+ console.log("custom script charge")
+
 var dict = {
   "H2" : "5%",
   "H3" : "10%",
