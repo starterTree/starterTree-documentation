@@ -1,4 +1,5 @@
 ## :octicons-server-24: add ssh machines
+
 ``` yaml
 machine1: # (1)
   ssh: root@X.X.X.X # (2)
@@ -10,7 +11,8 @@ myGroup: # (4)
     otherotherMachine1: {ssh: "root@X.X.X.X", tags:["foo1"]}
     
 ```
-1.   `user@host` , you can add same extra argument of open ssh command like `root@x.X.X.X -t sudo ssh user@X.X.X.X -t`
+
+1.    `user@host` , you can add same extra argument of open ssh command like `root@x.X.X.X -t sudo ssh user@X.X.X.X -t`
 
      
 
@@ -69,7 +71,9 @@ web_site:
 shutdown_pc:
     cmd: "shutdown"
 ```
-with a prompt for dangerous command
+
+### with a prompt for dangerous command
+
 ```
 shutdown_pc:
     cmdP: "shutdown"
