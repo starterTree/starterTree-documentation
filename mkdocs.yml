@@ -26,7 +26,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 theme:
-  icon: https://i.imgur.com/nHDBrIC.png
+  logo: https://i.imgur.com/nHDBrIC.png
   favicon: https://i.imgur.com/nHDBrIC.png
   name: material
   features:
