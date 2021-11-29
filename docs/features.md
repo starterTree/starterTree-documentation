@@ -1,9 +1,9 @@
 ## :octicons-server-24: ssh machines
 
 ``` yaml
-machine1: # (1)
-  ssh: root@X.X.X.X # (2)
-  tags: # (3)
+machine1: #(1)
+  ssh: root@X.X.X.X #(2)
+  tags: #(3)
     - foo
     - foo1
 otherMachine1: {ssh: "root@X.X.X.X", tags:["foo1"]}
