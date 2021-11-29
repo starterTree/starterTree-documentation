@@ -11,10 +11,7 @@ myGroup: # (4)
     
 ```
 1.   `user@host` , you can add same extra argument of open ssh command like `root@x.X.X.X -t sudo ssh user@X.X.X.X -t`
-2.   ```
-      - foo
-     ```
-     array of tags
+
      
 
 ## :material-file-cog-outline: add other starterTree config files
