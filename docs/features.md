@@ -12,12 +12,23 @@ myGroup: # (4)
     
 ```
 
-1.    `name_of_server` type: key  :fontawesome-solid-exclamation:obligatory
-      ```
-      gegegegeg
-      ```
-3.    `user@host` type: string , you can add same extra argument of open ssh command like `root@x.X.X.X -t sudo ssh user@X.X.X.X -t` :fontawesome-solid-exclamation:obligatory
-4.    list of tags type: array  :octicons-info-24:facultatif
+1.    `name_of_server`
+        
+      type: key
+      
+      `:fontawesome-solid-exclamation: obligatory`
+3.    `user@host`
+       
+      type: string
+      
+      you can add same extra argument of open ssh command like `root@x.X.X.X -t sudo ssh user@X.X.X.X -t`
+      
+      `:fontawesome-solid-exclamation: obligatory`
+3.    list of tags
+      
+      type: array
+      
+      `:octicons-info-24: facultatif`
      
 
 ## :material-file-cog-outline: include other starterTree config files
