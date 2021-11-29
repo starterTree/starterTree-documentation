@@ -6,6 +6,7 @@ machine1: #(1)
   tags: #(3)
     - foo
     - foo1
+  message_rich: hello #(5)
 otherMachine1: {ssh: "root@X.X.X.X", tags:["foo1"]}
 myGroup: # (4)
     otherotherMachine1: {ssh: "root@X.X.X.X", tags:["foo1"]}
@@ -34,53 +35,60 @@ myGroup: # (4)
       must contain sub group or any elements
       
       :octicons-info-24: facultatif
-     
+      
+5.    `message`  
+      type: **string**
+        
+      message before ssh session, support riche syntax like `":warning:[bold red] hello"`
 
 ## :material-file-cog-outline: include other starterTree config files
 ### :material-harddisk: Local Files
     
 === "Relative File"
-
-    ezgezgezgzeg
-    ``` 
-    gegzeg
+    
+    ``` yaml
+    example:
+      file_content_relative: subDir/anotherConf.yml # read an other config file on relative path
     ```
 === "Aboslute File"
 
-    ezgezgezgzeg
+    TO DO
     ``` 
-    gegzeg
+    TO DO
     ```
     
 ### :material-web: External Files
 
 === ":link: url file"
-
-    ezgezgezgzeg
-    ``` 
-    gegzeg
+      
+    ``` yaml
+    example:
+      web_content: "https://raw.githubusercontent.com/thomas10-10/starterTree/master/configExample/config.yml"
     ```
 === ":fontawesome-brands-github-alt: GitHub private File"
-
-    ezgezgezgzeg
-    ``` 
-    gegzeg
+       
+    ``` yaml
+    example:
+      github_api_content_prompt_token: https://api.github.com/repos/username/example/contents/perso.yml
+        
     ```        
 === ":material-gitlab: Gitlab private File"
-
-    ezgezgezgzeg
-    ``` 
-    gegzeg
+    
+    ``` yaml
+    example:
+      gitlab_api_content_prompt_token: "https://myGitlab/api/v4/projects/35/wikis/example_config.yml"
     ```        
+!!! info "Encrypted files"
+    
+    it's support encrypted files with gnu,
+    if extension file is .asc, it will prompt your password to decrypt file
 
-TODO github private file 
-    or get token file
-TODO gitlab private file
-??? Encrypted config files
-    fezfzeezgezgegezggezg
+!!! info "pull mofifs"
+
+    if external files is modified, use `st> example --pull` to pull modifs (it will erase your local config file example.yml in ~/.starterTree )
+
 ## :material-kubernetes: add kubernetes config
-??? Encrypted config kubernetes files
-    fezfzeezgezgegezggezg
+
 ## :material-link-variant-plus: add web links
 ```
 web_site:
