@@ -1,6 +1,6 @@
 ## :octicons-server-24: add ssh machines
 ## :material-file-cog-outline: add other starterTree config files
-???+ "Local Files"
+???+ :material-harddisk: "Local Files"
     
     === "Relative File"
         
@@ -15,21 +15,21 @@
         gegzeg
         ```
         
-??? "External Files"
+??? :material-web: "External Files"
 
-    === "url file"
+    === ":link: url file"
         
         ezgezgezgzeg
         ``` 
         gegzeg
         ```
-    === "GitLab private File"
+    === ":fontawesome-brands-github-alt: GitHub private File"
         
         ezgezgezgzeg
         ``` 
         gegzeg
         ```        
-    === "Github private File"
+    === ":material-gitlab: Gitlab private File"
         
         ezgezgezgzeg
         ``` 
