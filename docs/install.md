@@ -13,9 +13,10 @@
 
 Download and install
 
-``` bash title=:octicons-terminal-24: "Terminal"
-curl -L https://raw.githubusercontent.com/starterTree/starterTree/master/install.sh | bash
-```
+=== ":octicons-heart-fill-24:{ .heart } Aboslute File"
+    ``` bash title=:octicons-terminal-24: "Terminal"
+    curl -L https://raw.githubusercontent.com/starterTree/starterTree/master/install.sh | bash
+    ```
 
 ??? info "Custom install"
   
