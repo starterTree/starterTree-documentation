@@ -37,7 +37,7 @@ document.head.appendChild(styleSheet)
 
 $('article').children().each(function () {
 //alert($(this).prev().prop('nodeName'));
-	if ( ["H2","H3","H4","H5","H4"].includes($(this).prop('nodeName')) ){
+	if ( ["H1","H2","H3","H4","H5","H4"].includes($(this).prop('nodeName')) ){
       		//if (typeof toggle !== 'undefined'){
       		//	$(this).css("margin-left",dict[toggle]);
       		//}
