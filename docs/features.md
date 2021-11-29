@@ -1,33 +1,21 @@
 ## :octicons-server-24: add ssh machines
 ``` yaml
-machine1: 
-  ssh: root@X.X.X.X
-  tags: 
+machine1: #(1)
+  ssh: root@X.X.X.X #(2)
+  tags: #(3)
     - foo
     - foo1
 otherMachine1: {ssh: "root@X.X.X.X", tags:["foo1"]}
-myGroup:
+myGroup: #(4)
     otherotherMachine1: {ssh: "root@X.X.X.X", tags:["foo1"]}
     
 ```
-
-```
-tags
-  - foo
-```
-
-:   Sed sagittis eleifend rutrum. Donec vitae suscipit est. Nullam tempus
-    tellus non sem sollicitudin, quis rutrum leo facilisis.
-
-`Cras arcu libero`
-
-:   Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin
-    ut eros sed sapien ullamcorper consequat. Nunc ligula ante.
-
-    Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
-    Nam vulputate tincidunt fringilla.
-    Nullam dignissim ultrices urna non auctor.
-    
+1.   `user@host` , you can add same extra argument of open ssh command like `root@x.X.X.X -t sudo ssh user@X.X.X.X -t`
+2.   ```
+      - foo
+     ```
+     array of tags
+     
 
 ## :material-file-cog-outline: add other starterTree config files
 ### :material-harddisk: Local Files
