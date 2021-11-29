@@ -29,7 +29,7 @@ myGroup: # (4)
       
       :octicons-info-24: facultatif
 
-4.    `name_of_group`
+4.    `name_of_group`   
       type: **dict**
       
       must contain sub group or any elements
