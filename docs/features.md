@@ -12,7 +12,7 @@ myGroup: # (4)
     
 ```
 
-1.    `name_of_server`  
+1.    `name_of_element`  
       type: **key**   
       
       :fontawesome-solid-exclamation: obligatory
@@ -25,6 +25,13 @@ myGroup: # (4)
       
 3.    list of tags  
       type: **array**  
+      
+      :octicons-info-24: facultatif
+
+4.    `name_of_group`
+      type: **dict**
+      
+      must contain sub group or any elements
       
       :octicons-info-24: facultatif
      
