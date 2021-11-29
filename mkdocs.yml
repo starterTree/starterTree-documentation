@@ -33,6 +33,8 @@ theme:
     - toc.integrate
     - navigation.instant
     - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
   #logo: material/square
     
   palette:
