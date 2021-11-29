@@ -1,5 +1,41 @@
 ## :octicons-server-24: add ssh machines
 ## :material-file-cog-outline: add other starterTree config files
+???+ "Local Files"
+    
+    === "Relative File"
+        
+        ezgezgezgzeg
+        ``` 
+        gegzeg
+        ```
+    === "Aboslute File"
+        
+        ezgezgezgzeg
+        ``` 
+        gegzeg
+        ```
+        
+??? "External Files"
+
+    === "url file"
+        
+        ezgezgezgzeg
+        ``` 
+        gegzeg
+        ```
+    === "GitLab private File"
+        
+        ezgezgezgzeg
+        ``` 
+        gegzeg
+        ```        
+    === "Github private File"
+        
+        ezgezgezgzeg
+        ``` 
+        gegzeg
+        ```        
+        
 TODO github private file 
     or get token file
 TODO gitlab private file
