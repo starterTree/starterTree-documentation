@@ -12,19 +12,19 @@ var dict = {
 
 var styles = `
     h2 { 
-   	margin-left: 1%;
+   	margin-left: 1% !important;
     }
     h3 { 
-   	margin-left: 5%;
+   	margin-left: 5% !important;
     }
     h4 { 
-   	margin-left: 10%;
+   	margin-left: 10% !important;
     }
     h5 { 
-   	margin-left: 15%;
+   	margin-left: 15% !important;
     }
     h6 { 
-   	margin-left: 20%;
+   	margin-left: 20% !important;
     }
     
 `
