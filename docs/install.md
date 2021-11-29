@@ -20,7 +20,7 @@ Download and install
 
 ??? info "Custom install"
   
-    ``` bash title="Linux Terminal" 
+    ``` bash title="Linux Terminal"
     cd /opt 
     sudo curl -L "https://github.com/starterTree/starterTree/releases/download/$(basename $(curl -fsSLI -o /dev/null -w %{url_effective} https://github.com/starterTree/starterTree/releases/latest))/starterTree.tar.gz" | sudo tar -xz 
     sudo ln -s /opt/starterTree/starterTree /usr/local/bin/st
