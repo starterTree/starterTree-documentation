@@ -1,5 +1,5 @@
 ## :octicons-server-24: add ssh machines
-```yml
+``` yaml
 machine1: 
   ssh: root@X.X.X.X
   tags: 
@@ -27,6 +27,8 @@ tags
     Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
     Nam vulputate tincidunt fringilla.
     Nullam dignissim ultrices urna non auctor.
+    
+
 ## :material-file-cog-outline: add other starterTree config files
 ### :material-harddisk: Local Files
     
