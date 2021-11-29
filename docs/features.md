@@ -1,4 +1,15 @@
 ## :octicons-server-24: add ssh machines
+```
+machine1: 
+  ssh: root@X.X.X.X
+  tags: 
+    - foo
+    - foo1
+otherMachine1: {ssh: "root@X.X.X.X", tags:["foo1"]}
+myGroup:
+    otherotherMachine1: {ssh: "root@X.X.X.X", tags:["foo1"]}
+    
+```
 ## :material-file-cog-outline: add other starterTree config files
 ### :material-harddisk: Local Files
     
@@ -45,6 +56,19 @@ TODO gitlab private file
 ??? Encrypted config kubernetes files
     fezfzeezgezgegezggezg
 ## :material-link-variant-plus: add web links
+```
+web_site:
+    www: "www.google.fr"
+```
 ## :material-bash: add command
+```
+shutdown_pc:
+    cmd: "shutdown"
+```
+with a prompt for dangerous command
+```
+shutdown_pc:
+    cmdP: "shutdown"
+```
 ## :octicons-search-24: search mod
 
