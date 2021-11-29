@@ -40,6 +40,8 @@ myGroup: # (4)
       type: **string**
         
       message before ssh session, support riche syntax like `":warning:[bold red] hello"`
+      
+      :octicons-info-24: facultatif
 
 ## :material-file-cog-outline: include other starterTree config files
 ### :material-harddisk: Local Files
