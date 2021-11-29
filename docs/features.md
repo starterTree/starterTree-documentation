@@ -1,4 +1,4 @@
-## :octicons-server-24: add ssh machines
+## :octicons-server-24: ssh machines
 
 ``` yaml
 machine1: # (1)
@@ -16,7 +16,7 @@ myGroup: # (4)
 3.     list of tags type: array  :octicons-info-24:facultatif
      
 
-## :material-file-cog-outline: add other starterTree config files
+## :material-file-cog-outline: include other starterTree config files
 ### :material-harddisk: Local Files
     
 === "Relative File"
@@ -66,7 +66,7 @@ TODO gitlab private file
 web_site:
     www: "www.google.fr"
 ```
-## :material-bash: add command
+## :material-bash: command
 ```
 shutdown_pc:
     cmd: "shutdown"
