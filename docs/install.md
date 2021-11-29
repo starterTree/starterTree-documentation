@@ -6,6 +6,7 @@
 
     to enable icons, you must install nerd fonts [nerdFonts](https://www.nerdfonts.com/font-downloads)
 
+##
 
 ### :material-file-download: Installation
 
