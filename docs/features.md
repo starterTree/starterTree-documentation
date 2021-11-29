@@ -1,6 +1,6 @@
 ## :octicons-server-24: add ssh machines
 ## :material-file-cog-outline: add other starterTree config files
-### :material-harddisk: "Local Files"
+### :material-harddisk: Local Files
     
 === "Relative File"
 
