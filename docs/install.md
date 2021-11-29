@@ -12,9 +12,9 @@
 ## :material-file-download: Installation
 
 Download and install
-       
 ``` bash title="Linux Terminal"
 curl -L https://raw.githubusercontent.com/starterTree/starterTree/master/install.sh | bash
+
 ```
 
 ??? info "Custom install"
