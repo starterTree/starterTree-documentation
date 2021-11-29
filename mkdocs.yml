@@ -11,6 +11,8 @@ pages:
 - Configuration: configuration.md
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/indentHeading.js
 markdown_extensions:
   - attr_list
   - meta
