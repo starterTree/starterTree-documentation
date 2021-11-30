@@ -89,7 +89,26 @@ myGroup: # (4)
 
     if external files is modified, use `st> example --pull` to pull modifs (it will erase your local config file example.yml in ~/.starterTree )
 
-## :material-kubernetes: add kubernetes config
+## :material-kubernetes: manage kubernetes config
+
+=== "From local File"
+    
+    ``` yaml
+    example:
+      kubeconfig_file: "~/.kube/kindLocal"
+    ```
+    
+    !!! info "Encrypted files"
+    
+    it's support encrypted files with gnu,
+    if extension file is .asc, it will prompt your password to decrypt file
+
+=== "Embedded config"
+
+    TO DO
+    ``` 
+    TO DO
+    ```
 
 ## :material-link-variant-plus: add web links
 ```
