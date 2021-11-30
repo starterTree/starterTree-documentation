@@ -128,4 +128,7 @@ shutdown_pc:
     cmdP: "shutdown"
 ```
 ## :octicons-search-24: search mod
+### navigation
+<script id="asciicast-Jkftexrn9EwFmdW3RaUf5xGqe" src="https://asciinema.org/a/Jkftexrn9EwFmdW3RaUf5xGqe.js" async></script>
+### execute ssh command on many server
 
