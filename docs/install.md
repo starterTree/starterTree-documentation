@@ -42,7 +42,7 @@ or go Installation section
 
 ## Usage
 
-create ~/.config/starterTree/config.yml and see [features](/features) and example config file
+create ~/.config/starterTree/config.yml and see [features](features) and example config file
 
 and `>st`
 
