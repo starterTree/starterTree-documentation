@@ -3,12 +3,12 @@ repo_url: https://github.com/orgs/starterTree/repositories
 repo_name: starterTree
 edit_uri: https://github.com/starterTree/starterTree-documentation/blob/master/docs
 pages:
-- Overview: index.md
+#- Overview: index.md
 - Install: install.md
 - Features: features.md
-- "Get Started": start.md
-- CLI: cli.md
-- Configuration: configuration.md
+#- "Get Started": start.md
+#- CLI: cli.md
+#- Configuration: configuration.md
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
