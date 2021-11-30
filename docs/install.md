@@ -31,7 +31,7 @@ curl -L https://raw.githubusercontent.com/starterTree/starterTree/master/install
 ## :material-update: Update 
 
 since version 0.7 you can update with:
-``` bash title=":octicons-terminal-24: Terminal"
+``` bash title="Linux Terminal"
 #update to last versiob
 t > --update
 #update to precise version
