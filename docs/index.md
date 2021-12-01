@@ -8,10 +8,7 @@ command launcher and ssh connection manager organised in a tree structure with a
 
 ![](https://i.imgur.com/R9UEoVa.png)
 
-[demo](../features/#navigation)
-
-[install](../install)
-[features](../feattures)
+[:octicons-play-24: demo](../features/#navigation){ .md-button .md-button--primary } [:octicons-download-24: install](../install){ .md-button .md-button--primary } [:octicons-book-24: features](../feattures){ .md-button .md-button--primary }
 
 ## About The Project
 
