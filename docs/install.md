@@ -56,5 +56,7 @@ or to manage several different configurations:
 or run starterTree via bind:
 `bind -x '"\C-p":st'`
 
+you need press key space or tab to use autocomplete 
+
 
 
