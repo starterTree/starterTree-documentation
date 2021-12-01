@@ -43,6 +43,7 @@ myGroup: # (4)
       
       :octicons-info-24: facultatif
 
+>:octicons-package-24: [modules/ssh.py](https://github.com/starterTree/starterTree/blob/master/modules/ssh.py)
 ## :material-file-cog-outline: include other starterTree config files
 ### :material-harddisk: Local Files
     
@@ -115,6 +116,7 @@ myGroup: # (4)
 web_site:
     www: "www.google.fr"
 ```
+>:octicons-package-24: [modules/openWWW.py](https://github.com/starterTree/starterTree/blob/master/modules/openWWW.py)
 ## :material-bash: command
 ```
 shutdown_pc:
